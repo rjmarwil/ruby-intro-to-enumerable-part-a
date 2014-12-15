@@ -10,7 +10,6 @@ Intro to enumerable part A
 Any piece of code that evaluates to a value, this includes:
 
 - *values* - `7`, `"thing"`
-- *constants* - `ENV`
 - variables - `x`, `foo`
 - operators - `+`, `<<`, `*`
 - functions - `exit`, `puts`
