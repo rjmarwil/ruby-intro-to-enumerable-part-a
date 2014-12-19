@@ -80,8 +80,12 @@ In this case `foo`, the *object*, is an instance of `Foo`, the *class*. When the
 	- it is defined on **_EVERY_** object (even `nil`!!!)
 	- can be thought of as "to `String`" (it is `.toString()` in many languages including `Java`, `JavaScript`, and `Scala`)
 
-#### Running the specs
+## Let's talk about those specs...
+
+The way we have the tests set up in each exercise file is NOT how it is normally done. We configured it this way so you don't have to traverse between folders and files to see your related methods and tests. To 'properly' set up methods and tests, you normally create a spec directory with your test files and a lib directory with your classes and methods. But back to our specs...
+
+#### How do those specs get run?
 
 * bundle
 * cd into the exercises folder
-* run `$ rspec <filename>` (OR `$ rspec all.rb` for all the specs)
+* run `$ ruby <filename>` (OR `$ ruby all.rb` for all the specs)
