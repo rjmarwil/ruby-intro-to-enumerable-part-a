@@ -79,3 +79,9 @@ In this case `foo`, the *object*, is an instance of `Foo`, the *class*. When the
 - `.to_s` is a method that returns the `String` representation of the *receiver*
 	- it is defined on **_EVERY_** object (even `nil`!!!)
 	- can be thought of as "to `String`" (it is `.toString()` in many languages including `Java`, `JavaScript`, and `Scala`)
+
+#### Running the specs
+
+* bundle
+* cd into the exercises folder
+* run `$ rspec <filename>` (OR `$ rspec all.rb` for all the specs)
