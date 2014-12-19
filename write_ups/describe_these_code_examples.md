@@ -5,16 +5,16 @@ Use terms like assigned, reassigned, statement, and concatenates to explain each
 1)
 
 ```
-x = 7 
+x = 7
 ```
 
-**Response:** 
+**Response:**
 
 
 2)
 
 ```
-foeey = "not foo"
+fooey = "not foo"
 puts fooey
 ```
 
@@ -25,17 +25,19 @@ puts fooey
 
 ```
 special_number = 1
-speical_number = 3
+special_number = 3
 ```
 
 **Response:**
+
 
 4)
 
 ```
 1 + 2
 ```
-**Response:** 
+
+**Response:**
 
 
 5)
@@ -44,10 +46,10 @@ speical_number = 3
 a = "foo"
 b = "bar"
 a + b
-
 ```
 
-**Response:** 
+**Response:**
+
 
 6)
 
@@ -56,4 +58,4 @@ z = 9
 z = z * 3
 ```
 
-**Response:** 
+**Response:**
