@@ -1,3 +1,12 @@
+def find_by_field_name(input, sym, value)
+  hash = nil
+  input.each do |x|
+    if x[sym] == value
+      hash = x
+    end 
+  end
+  hash
+end
 
 # ------ code above this line ------
 

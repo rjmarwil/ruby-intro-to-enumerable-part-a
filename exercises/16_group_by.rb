@@ -1,3 +1,10 @@
+def group_by(input, sym)
+  hash = Hash.new { [] }
+  input.each do |a|
+    hash[a[sym]] = hash[a[sym]] << a
+  end
+  hash
+end
 
 # ------ code above this line ------
 

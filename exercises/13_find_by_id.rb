@@ -1,3 +1,12 @@
+def find_by_id(input, value)
+  hash = nil
+  input.each do |x|
+    if x[:id] == value
+      hash = x
+    end
+  end
+  hash
+end
 
 # ------ code above this line ------
 

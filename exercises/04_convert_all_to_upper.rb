@@ -1,4 +1,9 @@
 def convert_all_to_upper_case(words)
+  upper = []
+  words.each do |word|
+    upper << word.upcase
+  end
+  upper
 end
 
 # ------ code above this line ------
