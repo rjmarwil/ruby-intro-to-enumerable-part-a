@@ -1,11 +1,11 @@
 def group_by_x(input)
-  # hash = Hash.new { [] }
-  # input.each do |a|
-  #   hash[a[:x]] = hash[a[:x]] << a
-  # end
-  # hash
+  hash = Hash.new { [] }
+  input.each do |a|
+    hash[a[:x]] = hash[a[:x]] << a
+  end
+  hash
 
-  input.group_by { |a| a[:x] }
+  # input.group_by { |a| a[:x] }
 end
 
 # ------ code above this line ------

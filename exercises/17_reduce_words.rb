@@ -1,5 +1,9 @@
 def reduce(words)
-  words.join("")
+  a = ""
+  words.each do |word|
+    a << word
+  end
+  a
 end
 
 # ------ code above this line ------
